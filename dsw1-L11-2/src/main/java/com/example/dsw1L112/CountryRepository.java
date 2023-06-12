@@ -18,6 +18,7 @@ public class CountryRepository {
 	public void initData() {
 		Country spain = new Country();
 		spain.setName("Spain");
+		spain.setIdioma("Español");
 		spain.setCapital("Madrid");
 		spain.setCurrency(Currency.EUR);
 		spain.setPopulation(46704314);
@@ -26,6 +27,7 @@ public class CountryRepository {
 
 		Country poland = new Country();
 		poland.setName("Poland");
+		poland.setIdioma("Ingles");
 		poland.setCapital("Warsaw");
 		poland.setCurrency(Currency.PLN);
 		poland.setPopulation(38186860);
@@ -34,6 +36,7 @@ public class CountryRepository {
 
 		Country uk = new Country();
 		uk.setName("United Kingdom");
+		uk.setIdioma("Ingles");
 		uk.setCapital("London");
 		uk.setCurrency(Currency.GBP);
 		uk.setPopulation(63705000);
